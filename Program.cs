@@ -12,6 +12,8 @@
                 "Tiramisu",
                 "Sushi",
                 "Fiorentina",
+                "Gelato",
+                "Pasta al forno"
             };
             Console.WriteLine($"I miei piatti preferiti sono {FavouriteFood.Length}");
             for (int i = 0; i < FavouriteFood.Length; i++)

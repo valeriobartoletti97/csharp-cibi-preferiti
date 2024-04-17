@@ -25,7 +25,7 @@
             if (FavouriteFood.Length % 2 == 0)
             {
                 int median = FavouriteFood.Length / 2;
-                Console.WriteLine($"I cibi mediani sono {FavouriteFood[median]} e {FavouriteFood[median + 1]} ");
+                Console.WriteLine($"I cibi mediani sono {FavouriteFood[median]} e {FavouriteFood[median - 1]} ");
             }
             else
             {
